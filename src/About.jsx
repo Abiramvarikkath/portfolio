@@ -1,6 +1,6 @@
 import React from 'react'
 
-function base() {
+function About() {
   return (
     <div>
       
@@ -8,4 +8,4 @@ function base() {
   )
 }
 
-export default base
+export default About
