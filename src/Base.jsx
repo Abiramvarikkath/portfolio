@@ -1,5 +1,5 @@
 import React from 'react';
-import image from '../public/abi1.jpg';
+import image from '../public/abi 7.avif';
 
 function Base() {
   return (
@@ -21,9 +21,12 @@ function Base() {
       
       </nav>
 
-      <h1 className='text-white text-4xl font-bold text-center pt-[50px]'>Welcome to My Page</h1>
-      
+      <h1 className='text-black text-4xl font-bold text-center pt-[100px] animate-pulse'>Welcome to My Page</h1>
+      <h2 className='text-black text-3xl font-bold text-center pt-[10px] animate-pulse '> ABIRAM.V</h2>
+      <h4 className='text-black text-1xl font-bold text-center pt-[5px] animate-pulse'>Web Devoloper & Designer</h4>
     </div>
+
+    
   );
 }
 
