@@ -3,10 +3,10 @@ import React from 'react'
 
 function About() {
   return (
-    <div className='w-full h-screen flex '>
-      <div className='w-[500px] h-[500px] pt-[30px] pl-[30px] '
+    <div id='About' className='w-full h-screen flex '>
+      <div className='w-[500px] h-[600px] pt-[100px] pl-[30px] '
          >
-            <img src="abi2.jpg" alt="" />
+            <img src="abi 10.jpeg" alt="" />
       </div>
       <div >
       <h1 className='pt-[30px] text-center mt-12 font-bold .. text-4xl italic md:not-italic ...'> About Me

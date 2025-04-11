@@ -1,5 +1,5 @@
 import React from 'react';
-import image from '../public/abi 7.avif';
+import image from '../public/abi 8.jpeg';
 
 function Base() {
   return (
@@ -8,22 +8,24 @@ function Base() {
       style={{ backgroundImage: `url(${image})`,
     }}
     >
-      <nav className='font-semibold justify-center text-center space-x-10 pt-[50px] text-lime-50'>
+      <nav className='font-semibold justify-center text-center space-x-10 pt-[30px] text-gray-600'>
       
-      <a className="hover:text-gray-500 transition duration-300 ease-in-out hover:scale-105">About</a>
-        <a className='hover:text-gray-500 transition duration-300 ease-in-out hover:scale-105 '>
-          Project</a>
-        <a className='hover:text-gray-500 transition duration-300 ease-in-out hover:scale-105 '>
+      <a href='#About' className="hover:text-gray-400 transition duration-300 ease-in-out hover:scale-105">About</a>
+        <a href='#Project' className='hover:text-gray-400 transition duration-300 ease-in-out hover:scale-105 '>
+          Projects</a>
+        <a href='#Skill' className='hover:text-gray-400 transition duration-300 ease-in-out hover:scale-105 '>
           Skill</a>
-        <a className='hover:text-gray-500 transition duration-300 ease-in-out hover:scale-105 '>
+        <a href='#Contact' className='hover:text-gray-400 transition duration-300 ease-in-out hover:scale-105 '>
           Contact</a>  
        
       
       </nav>
-
-      <h1 className='text-black text-4xl font-bold text-center pt-[100px] animate-pulse'>Welcome to My Page</h1>
+  <div >
+      <h1 className='text-black text-4xl font-bold text-center pt-[250px] animate-pulse'>Welcome to My Page</h1>
       <h2 className='text-black text-3xl font-bold text-center pt-[10px] animate-pulse '> ABIRAM.V</h2>
       <h4 className='text-black text-1xl font-bold text-center pt-[5px] animate-pulse'>Web Devoloper & Designer</h4>
+  </div>
+   
     </div>
 
     
